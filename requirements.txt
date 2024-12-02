@@ -1,0 +1,10 @@
+python-dotenv
+requests
+pymongo
+nltk
+pandas
+textblob
+sentence_transformers
+datetime
+importlib
+

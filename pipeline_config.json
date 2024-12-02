@@ -1,0 +1,8 @@
+{
+    "steps":
+    [
+        {"file": "preprocessing.py" , "function": "process_json_files"},
+        {"file": "transform.py" , "function": "transform"},
+        {"file": "storeEmbeddings.py", "function": "store_embeddings"}
+    ]
+}
