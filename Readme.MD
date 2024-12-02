@@ -9,9 +9,8 @@ The user will enter the review of the product they brought and store they brough
 ## **Table of Contents**
 1. [Project Overview](#project-overview)
 2. [Features](#features)
-3. [Project Structure](#project-structure)
-4. [Technologies Used](#technologies-used)
-5. [Future Enhancements](#future-enhancements)
+3. [Technologies Used](#technologies-used)
+4. [Future Enhancements](#future-enhancements)
 
 ---
 
@@ -35,45 +34,7 @@ This project performs the following key tasks:
 - **Database Storage:** Save processed data and embeddings in a database for efficient querying.
 - **RAG Implementation:** Generate concise summaries for retrieved results based on user prompts.
 
----
-
-## **Project Structure**
-data-retrieval-system/
-│
-├── data/                    # Raw and processed data files
-│   ├── raw/                 # Raw datasets (structured & unstructured)
-│   ├── processed/           # Processed and merged dataset files
-│
-├── embeddings/              # Generated embeddings for unstructured data
-│   ├── vectors/             # Stored embeddings in vectorized form
-│
-├── database/                # Database initialization and schema
-│   ├── schema.sql           # SQL scripts for creating tables
-│   ├── db_operations.py     # Scripts for database CRUD operations
-│
-├── scripts/                 # Core processing and retrieval scripts
-│   ├── preprocess.py        # Preprocessing pipeline
-│   ├── embed_data.py        # Embedding generation for unstructured data
-│   ├── retrieval_service.py # Embedding-based search and RAG summarization
-│
-├── config/                  # Configuration files
-│   ├── config.json          # Database and general project configurations
-│
-├── models/                  # ML models and embedding-related scripts
-│   ├── embedding_model.py   # Embedding model integration (e.g., OpenAI or Sentence Transformers)
-│   ├── rag_model.py         # RAG summarization model integration
-│
-├── utils/                   # Utility scripts
-│   ├── text_cleaning.py     # Functions for cleaning unstructured data
-│   ├── timestamp_utils.py   # Functions for timestamp conversion
-│
-├── tests/                   # Unit and integration tests
-│   ├── test_preprocess.py   # Test cases for preprocessing
-│   ├── test_embeddings.py   # Test cases for embeddings and retrieval
-│
-├── requirements.txt         # Python dependencies
-├── README.md                # Project documentation
-└── .gitignore               # Ignored files and directories
+--
 
 ## **Technologies Used**
 
