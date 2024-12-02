@@ -97,6 +97,9 @@ Follow these steps to set up and run the project.
 
 ### Prerequisites
 
+download dataset from the following drive link (file is too large)
+- https://drive.google.com/file/d/1HPBEztv_COZOw1TB8ili6v6Dvg_rG-Ag/view?usp=sharing
+
 Make sure you have the following installed:
 - Python 3.8 or higher
 - `pip` (Python package manager)
